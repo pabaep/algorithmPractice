@@ -18,7 +18,7 @@ public class Q1018 {
 			String tmp = br.readLine();
 			
 			for(int j = 0;j<m;j++) {
-				if(tmp.charAt(j)=='w') {
+				if(tmp.charAt(j)=='') {
 					chess[i][j] = true;
 				}
 				else {
