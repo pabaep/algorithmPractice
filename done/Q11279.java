@@ -4,7 +4,7 @@ public class Q11279 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());//큰 숫자를 제일 상단에
+		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); //큰 숫자를 제일 상단에
 		StringBuilder sb = new StringBuilder();
 		int n = s.nextInt();
 		for(int i = 0;i<n;i++) {
