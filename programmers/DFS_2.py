@@ -1,3 +1,4 @@
+#네트워크
 def solution(n, computers):
     #인접행렬 + dfs
     answer = 0
