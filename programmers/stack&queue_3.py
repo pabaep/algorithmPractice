@@ -6,7 +6,7 @@ def solution(bridge_length, weight, truck_weights):
         answer += 1
         bridge.pop(0) #넣을거 가정하고 자리 하나 뺌
         if truck_weights:
-            if sum(bridge) + truck_weights[0] <= weight: #무게 조건 통과하면
+            if(weight - sum(bridge) >= truck_weights[0]): #무게 조건 통과하면
                 bridge.append(truck_weights.pop(0)) #트럭 하나 빼서 다리에 넣음
             else:
                 bridge.append(0)#트럭 넣지 않았으므로 다시 0 넣음
