@@ -1,3 +1,4 @@
+#2021백엔드 데브매칭 하반기 로또의 최고 순위와 최저 순위
 def solution(lottos, win_nums):
     answer = []
     cnt = 7
