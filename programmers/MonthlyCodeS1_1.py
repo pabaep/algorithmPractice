@@ -1,4 +1,4 @@
-#내적
+#월간코드 챌린지 시즌 1 내적
 
 def solution(a, b):
     answer = 0
