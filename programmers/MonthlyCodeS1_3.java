@@ -1,3 +1,4 @@
+//#월간코드 챌린지 시즌 1 두개 뽑아서 더하기
 import java.util.*;
 
 class Solution {
